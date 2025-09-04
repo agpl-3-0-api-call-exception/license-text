@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SPDXLicenseCollection xmlns="http://www.spdx.org/license">
+  <exception licenseId="AGPL-3.0-API-call-exception" name="AGPL 3.0 API Call Exception">
+    <crossRef>https://github.com/agpl-3-0-api-call-exception/license-text/blob/1.0/agpl-3.0-api-call-exception.txt</crossRef>
+    <notes>Designed to be used with AGPL-3.0 -only</notes>
+    <text>
+    <titleText>
+      AGPL 3.0 API Call Exception
+    </titleText>
+
+    <p>
+      As a special exception, using the interfaces contained in the files listed
+      in `excepted.api` included in the source distribution (the “Excepted API”)
+      shall not, by itself, cause the calling code to be subject to the GNU
+      Affero General Public License v3.0.
+    </p>
+
+    <p>For the avoidance of doubt:</p>
+    <list>
+      <item>
+        The file `excepted.api` is the sole authoritative specification of which
+        source files define the Excepted API. The interfaces contained in those
+        files are the only ones covered by this exception.
+      </item>
+      <item>
+        This exception applies only to calling, compiling against, or linking
+        against the interfaces contained in the files listed in `excepted.api`.
+        It does not apply to direct use of any other parts of the work not
+        listed in the `excepted.api` file.
+      </item>
+      <item>
+        Implementation details, including any transitive code, libraries, or
+        elements used internally to satisfy calls to the Excepted API, do not
+        extend this exception to any part of the work not listed in the
+        `excepted.api` file.
+      </item>
+      <item>
+        Merely compiling against, linking against, or invoking the Excepted API,
+        and the fact that such actions may require the work to access or load
+        other elements, shall not by itself be considered creation of a derivative
+        work by the caller.
+      </item>
+      <item>
+        This exception does not grant permission to copy, modify, or distribute
+        any file except as otherwise permitted under the GNU Affero General Public
+        License v3.0.
+      </item>
+    </list>
+  </text>
+  </exception>
+</SPDXLicenseCollection>
+
